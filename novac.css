@@ -1,0 +1,966 @@
+﻿body {
+	background: #fff;
+	font-family: Roboto, serif;
+	font-size:14px;
+}
+.glBox {
+	width: 1440px;
+	height: 100%;
+	background: #ccc;
+	margin: 0 auto;
+	box-shadow:0px 0px 5px #ccc;
+}
+header {
+	height: 145px;
+	background: #fff;
+	margin: 0;
+}
+.hederBox {
+	background: #F7F7F7;
+}
+.topBlock {
+	height: 145px;
+	padding-left: 115px;
+}
+.logo {
+	width: 187px;
+	height: 145px;
+	background: #74CFB7;
+}
+.bgLogo{
+	width: 173px;
+	height: 114px;
+	margin:0 7px 14px 7px;
+	padding-top: 14px;	
+	border:0;
+	background: #74CFB7;
+	cursor:pointer;
+}
+.agency,.telCall {
+	margin-top: 49px;
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+color: #1F252D;
+}
+.telCall a {
+	color: #1F252D;
+}
+.mStation {
+	margin: -4px 5px 0 0;	
+}
+.btnCall {
+	width: 222px;
+	height: 48px;
+	margin-top: 49px;
+	padding:16px 18px 16px 24px;
+	border:0;
+	cursor:pointer;
+	background: #079FC2;
+	border-radius:4px;
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+color: #fff;
+}
+.btnCall:hover {
+	background: #74CFB7;
+	transition: background 0.8s ease;
+}
+.topMenu {
+	padding: 0 0 0 60px;
+	height: 70px;
+	background: #fff;
+}
+.tMenu {
+	display: block;
+}
+.tMenu li:hover {
+	border-bottom: 5px solid #74cfb7;
+    padding-bottom: 14px;
+}
+.menuLine {
+	height: 4px;
+	width: 1190px;
+	background: #74CFB7;
+	position: absolute;
+	top:66px;
+	left:119px;
+	right:130px;
+	bottom:0;
+}
+.searchIcon {
+	position: absolute;
+	top:24px;
+	left:1296px;
+	right:130px;
+	bottom:26px;
+	cursor:pointer;
+}
+.tMenu {
+	padding-left: 59px;
+}
+.tMenu li{
+	display: inline-block;
+	height: 67px;
+  padding: 26px 0;
+}
+.tMenu a {
+	text-decoration: none;
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 15px;
+text-transform: uppercase;
+	color: #404853;
+	padding: 0 20px;
+}
+.tMenu a:first-child {
+border:none;
+}
+
+.banner {
+	position: relative;
+	height: 419px;
+	background: url(main-top-bg7.png) #404853;
+	background-size: cover;
+	min-width: 100%;
+}
+/* Купить квартиру в но */
+.bayAppart {
+position: absolute;
+top: 72px;
+left:419px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.filter {
+	position: absolute;
+	top: 157px;
+	left:130px;
+	bottom:71px;
+	width: 1180px;
+	height: 191px;
+	border-radius:4px;
+	background: #FFFFFF;
+	box-shadow: 0px 11px 49px rgba(0, 0, 0, 0.240178);
+}
+.headFilter {
+	position: absolute;
+	top:28px;
+	left:28px;
+	font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+
+color: #1F252D;
+}
+.multirangeCss {
+	position: absolute;
+	top:61px;
+	left:28px;
+}
+.mapFon {
+	padding: 0;
+	background: url(Bitmap.png);
+	background-size: auto;
+	min-width:100%;
+	min-height:545px;
+}
+.variant {
+	height: 373px;
+	width: 506px;
+	background: #fff;
+	position: absolute;
+	top:81px;
+	left:116px;
+	bottom:81px;
+	right:803px;
+	box-shadow: 0px 0px 13px 0px #6d6d6d;
+}
+.variant::after {
+	content:'';
+	position: absolute;
+	left: 506px; bottom: 223px; /* Положение треугольника */
+  border: 15px solid transparent;	/* Прозрачные границы */
+  border-left: 10px solid #fff; /* Добавляем треугольник */
+}
+.offers {
+	background: #F7F7F7;
+	
+}
+.telCall {
+	text-decoration: none;
+}
+.cads {
+	width: 1180px;
+	height: 520px;
+	margin: 0 130px;
+	background: #fff;
+}
+.fCard {
+	position: relative;
+	margin-top: 60px;
+}
+.hTxtCost {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	margin: 0 242px 18px 53px;
+	padding-top: 32px ;
+}
+.hTxtCost a{
+	color: #1F252D;
+}
+.geoPoint {
+	margin-top: 27px;
+	padding-left: 53px;
+}
+.geoPoint img {
+	margin-bottom: 5px;
+}
+.mStation {
+	padding-left: 7px;
+	font-size: 14px;
+    line-height: 16px;
+}
+.timeToPlace {
+	color: #1F252D;
+	opacity:0.6;
+	padding-left: 18px;
+}
+.area {
+	margin-top: 23px;
+	padding-left: 53px;
+	font-size: 14px;
+  line-height: 16px;
+}
+.content {
+	width: 580px;
+	height: 520px;
+	background: #fff;
+}
+.image {
+	background: url(buildings.png);
+	background-size:cover;
+	position: absolute;
+	top:0;
+	left:580px;
+	right:0;
+	width: 600px;
+	height: 520px;
+}
+.promoBox {
+	position: absolute;
+	top:0;
+	right:0;
+	bottom:450px;
+	left:371px;
+	width: 229px;
+	height: 70px;
+	border:0;
+	border-radius:0 0 0 4px;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 15px;
+	color: #404853;
+	background: #F0F0F0;
+}
+.promoBox2 {
+	opacity:0.7;
+	height: 46px;
+}
+.CerfInd {
+	position: absolute;
+    top: 16px;
+    right: 15px;
+    z-index: 1;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+}
+.calendIco2 {}
+.moreInfo {
+	width: 222px;
+	height: 48px;
+	background: #079FC2;
+	border:0;
+	border-radius:4px;
+	position: absolute;	
+	top:437px;
+	right:189px;
+	bottom:25px;
+	left:189px;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 15px;
+	text-transform: uppercase;
+	color:#fff;
+	cursor:pointer;
+}
+.moreInfo:hover {
+	background: #74CFB7;
+	transition: background 0.8s ease;
+}
+.calendIco {
+	position: absolute;
+	top:15px;
+	right:195px;
+	bottom:42px;
+	left:20px;
+}
+.giftCerf {
+	position: absolute;
+	top:17px;
+	right:15px;
+	bottom:41px;
+	left:51px;
+}
+.megafonIco {
+	position: absolute;
+	top:41px;
+	right:191px;
+	bottom:42px;
+	left:20px;	
+}
+.action {
+	position: absolute;
+	top:42px;
+	right:140px;
+	bottom:15px;
+	left:51px;
+}
+.image2 {
+	background: url(B2.png);
+	background-size:cover;
+	position: absolute;
+	top:40px;
+	left:725px;
+	right:0;
+	width: 600px;
+	height: 520px;
+}
+.btnLine2 {
+	position: absolute;
+	top:485px;
+	left:200px;
+	right:53px;
+	bottom:41px;
+}
+.tCard, .thrCard {
+	margin-top: 40px;
+}
+.priceTable {
+	margin-top: 16px;
+	margin-left: 53px;
+}
+.cssTabLeft {
+	width: 228px;
+	color:#1F252D;
+	opacity:0.6;
+}
+.cssTabRight {
+	width: 240px;
+}
+.assembly {
+	margin-top: 20px;
+}
+.statIpotek {
+	padding-top: 15px;
+}
+.decor {
+	padding-top: 12px;
+}
+.priceTable td{
+	padding: 8px;
+	font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+color: #1F252D;
+}
+
+.btnLine{
+	position: absolute;
+	top:443px;
+	left:53px;
+	right:53px;
+	bottom:41px;
+}
+.btnLin img {
+	margin-right: 9px;
+	padding-bottom: 4px;
+}
+.cssBtnCard {
+	background: #F7F7F7;
+	height: 36px;
+	border:0;
+	border-radius:4px;
+	color:#079FC2;
+	font-weight: 500;
+font-size: 13px;
+line-height: 15px;
+text-transform: uppercase;
+}
+.ipotek {
+	width: 108px;
+}
+.rasroch {
+	width: 125px;
+}
+.sales {
+	width: 102px;
+}
+.subsid {
+	width: 121px;
+}
+.BtnAllOffers {
+	height: 48px;
+	width: 289px;
+	background: #74CFB7;
+	border:0;
+	border-radius:4px;
+	margin: 52px 580px 49px 580px;
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+text-transform: uppercase;
+cursor:pointer;
+color: #FFFFFF;
+}
+.BtnAllOffers:hover {
+	background: #079FC2;
+	transition: background 0.8s ease;
+}
+.backСall,.viewRealEst {
+	width: 70px;
+	height: 64px;
+	position: absolute;
+	background: #74CFB7;
+	color:#fff;
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 12px;
+/* or 109% */
+text-align: center;
+border:0;
+border-radius:4px 0 0 4px;
+	padding-top: 32px;
+}
+.backСall {
+	top:72px;
+	right:0px;
+	cursor:pointer;
+
+}
+.backСall:hover{
+	background: #079FC2;
+	transition: background 0.8s ease;
+}
+.viewRealEst {
+	top:141px;
+	right:0;
+	cursor:pointer;
+}
+.viewRealEst:hover {
+	background: #079FC2;
+	transition: background 0.8s ease;
+}
+.CssBCall {
+	
+
+}
+.iconPhone {
+	position: absolute;
+	top:11px;
+	right:29px;
+	bottom:39px;
+	left:30px;
+}
+.iconCalendar {
+	position: absolute;
+	top:11px;
+	right:26px;
+	bottom:38px;
+	left:28px;
+}
+
+.btnLi{
+	border-right:1px solid #D8D8D8;
+	width: 185px;
+}
+.btnLi:hover {
+	background: #ccc;
+	color:#fff;
+}
+.checkbox {
+margin:5px 24px 5px 5px;
+}
+.filterList {
+	height: 50px;
+	width: 1126px;
+	position: absolute;
+	top: 113px;
+}
+.filterList li {
+display: inline-block;
+
+}
+.filterList select {
+	height: 48px;
+    border: 1px solid #fff;
+  width: 180px;
+    outline: none;
+    background: #f7f7f7;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none !important;
+    display: block;
+    padding: ;
+   	padding-left: 20px;
+   	background: url(arrow.svg);
+   	background-position: center right;
+    background-repeat: no-repeat;
+    background-color: #f7f7f7;
+}
+
+.arrowSel {
+	position: absolute;
+	top:123px;
+	bottom:51px;
+	left:172px;
+}
+.arrowSelTw {
+	position: absolute;
+	top:123px;
+	bottom:51px;
+	left:373px;
+}
+.arrowSelThr {
+	position: absolute;
+	top:123px;
+	bottom:51px;
+	left:573px;
+}
+.arrowSelFo {
+	position: absolute;
+	top:123px;
+	bottom:51px;
+	left:773px;
+}
+
+.FilterSearchBtn {
+	width: 152px;
+	height: 47px;
+	border:0;
+	border-radius:4px;
+	background: #079FC2;
+	
+	font-weight: 500;
+font-size: 13px;
+line-height: 15px;
+text-transform: uppercase;
+color: #FFFFFF;
+cursor:pointer;
+}
+.FilterSearchBtn:hover {
+	background: #74CFB7;
+}
+
+/* range*/
+form  {
+    margin: 60px 0 0 0 !important;
+ }
+ 
+.ui-slider .ui-btn-inner {
+    padding: 4px 0 0 0 !important;
+}
+ 
+.ui-slider-popup {
+    position: absolute !important;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 14px;
+    z-index: 100;
+    opacity: 0.8;
+}
+
+.pseudocheckbox::before{
+	content: "\00A0";
+    display: inline-block;
+    box-sizing: border-box;
+    width: 15px; 
+    height: 15px;
+    background-color: white;
+    border: 2px solid #B0B0B0;
+    border-radius: 4px;
+    margin-right: 6px;
+    vertical-align: baseline;
+
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #808080;
+}
+.image3 {
+	background: url(Building3.png);
+	background-size:cover;
+	position: absolute;
+	top:40px;
+	left:725px;
+	right:0;
+	width: 600px;
+	height: 520px;
+}
+.bgCompany {
+	background: #fff;
+	padding: 0;
+}
+.officeMiel {
+	width: 1180px;
+	height: 510px;
+	border:1px solid #E7E7E7;
+	margin: 67px 130px 0 130px;
+
+}
+
+.services div{
+	display: inline-block;
+	height: 80px;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #1F252D;
+}
+.grOne {
+	position: absolute;
+    top: 338px;
+    left: 230px;
+}
+.grTwo {
+	position: absolute;
+    top: 338px;
+    left: 413px;
+}
+.grThr {
+	position: absolute;
+    top: 338px;
+    left: 644px;
+}
+.grFor {
+	position: absolute;
+    top: 338px;
+    left: 841px;
+}
+.grFiv {
+	position: absolute;
+    top: 338px;
+    left: 1030px;
+    bottom:379px;
+}
+.declaration {
+	font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+/* or 137% */
+margin: 135px 97px 47px 100px;
+-ms-text-align: left;
+text-align: left;
+color: #1F252D;
+
+}
+.offHeder {
+	margin: 69px 42px 29px 100px;
+	font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+color: #1F252D;
+}
+.exper {
+	margin: 0 97px 26px 100px;
+	font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+/* or 137% */
+
+color: #1F252D;
+}
+.operations {
+	margin: 0 227px 41px 100px;
+	font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+color: #1F252D;
+}
+.copy {
+position: absolute;
+top:81px;
+right:688px;
+bottom:88px;
+left:130px;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+color: #1F252D;
+}
+.webstudio {
+	position: absolute;
+	top:81px;
+	right: 130px;
+	bottom: 88px;
+	left: 1038px;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 16px;
+	color: #1F252D;
+}
+.jfImage {
+	width: 200px;
+	height: 373px;
+	background: url(jk.png);
+}
+.jkInfoBox {
+	width: 306px;
+	height: 373px;
+
+}
+.jkName {
+	position: absolute;
+	top:22px;
+	right:95px;
+	bottom:235px;
+	left:223px;
+	font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+color: #1F252D;
+}
+.orderView {
+	width: 256px;
+	height: 36px;
+	background: #079FC2;
+	border:0;
+	border-radius:4px;
+	position: absolute;
+	top:;
+	right:29px;
+	bottom:20px;
+	left:221px;
+	font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+cursor:pointer;
+color: #FFFFFF;
+}
+.orderView:hover {
+	background: #74CFB7;
+	transition: background 0.8s ease;
+}
+.closeIcon {
+	position: absolute;
+	top:13px;
+	right:22px;
+	cursor:pointer;
+}
+.closeIcon:hover {
+	transform:scaleY(1.5) scaleX(1.5);
+}
+.minimiz {
+	height: 58px;
+	width: 58px;
+	background: #fff;
+	border-radius:50%;
+	position: absolute;
+	top:46px;
+	right: 47px;
+	bottom: 431px;
+	left: 1335px;
+	cursor:pointer;
+}
+.minimiz img {
+	margin: 13px 15px;
+}
+.minimiz:hover {
+	box-shadow:0px 0px 12px 0px #000;
+	transform:scaleY(1.1) scaleX(1.1);
+}
+.lampIco {
+	position: absolute;
+	top: 80px;
+	right: 416px;
+	bottom: 86px;
+	left: 1010px;
+}
+.pRes {
+	padding: 0;
+}
+.footer {
+	background: #fff;
+    height: 185px;
+}
+.uper {
+	text-transform: uppercase;
+}
+.metroName {
+	position: absolute;
+    top: 52px;
+    right: 146px;
+    bottom: 229px;
+    left: 244px;
+    font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+
+color: #404853;
+}
+.timeObject {
+	font-weight: 300;
+font-size: 13px;
+line-height: 15px;
+color: #1F252D;
+mix-blend-mode: normal;
+opacity: 0.6;
+position: absolute;
+top:52px;
+right:50px;
+}
+.metroCard {
+	position: absolute;
+	top:48px;
+	right:265px;
+	bottom:308px;
+	left:221px;
+}
+.metroCard img {
+	margin-bottom: 2px;
+}
+.geoPointCard {
+	position: absolute;
+	top:78px;
+	right:50px;
+	bottom:280px;
+	left:221px;
+	font-weight: 300;
+font-size: 13px;
+line-height: 15px;
+color: #404853;
+}
+.tableInfoCard {
+	position: absolute;
+	top:112px;
+	right:147px;
+	left:221px;
+}
+.tableInfoCard td{
+	padding: 5px 6px 5px 2px;
+}
+.tableInfoTr{
+	border-bottom:1px solid #ccc;
+}
+.tabInfLeft {
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 15px;
+	color: #1F252D;
+	opacity: 0.6;
+}
+
+.cssP {
+	padding: 3px 0;
+}
+.cssR {
+	padding: -1px 0;
+}
+.houseIco {
+	    position: relative;
+    top: -1px;
+    right: 84px;
+    bottom: 11px;
+    left: -6px;
+  }
+  .calendBtn {
+  	position: relative;
+  	top: -1px;
+    right: 98px;
+    bottom: 10px;
+    left: -6px;
+  }
+  .saleIco {
+  	position: relative;
+  	top: -1px;
+    right: 98px;
+    bottom: 10px;
+    left: -6px;
+  }
+  .rubleIco {
+  	position: relative;
+  	top: -1px;
+    right: 98px;
+    bottom: 10px;
+    left: -6px;
+  }
+  .searchBox {
+  	display: none;
+  }
+.searchBoxVis {
+	    height: 100%;
+    width: 100%;
+    background: #F0F0F0;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+.searchBoxVis input{
+	outline:none;
+}
+.inpSerch {
+	height: 50px;
+	width: 1148px;
+	border:0;
+	margin: 10px 6px 10px 132px;
+	    font-size: 1.5em;
+    padding-left: 12px;
+    background: #f0f0f0;
+}
+.goSearch {
+	margin-left: 10px;
+	margin-bottom: 8px;
+}
+.cssBorderTd td {
+	border-bottom: none;
+}
+.cssMTab {
+	margin: 24px 0;
+}
+.cssMTop {
+	margin-top: 47px;
+}
+.borderRight {
+	border-right: 1px solid #ccc;
+}
+
